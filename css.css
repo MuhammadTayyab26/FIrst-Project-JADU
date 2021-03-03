@@ -1,0 +1,80 @@
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.8;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.text {
+  text-indent: 25px;
+}
+.content {
+  margin: -10;
+  padding: 8;
+  display: flex;
+  left: 0;
+  bottom: 0;
+  color: white;
+  background-color: #5e5f5f;
+
+  justify-content: center;
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  flex-flow: row wrap;
+}
+.links {
+  display: flex;
+  list-style-type: none;
+  margin-left: auto;
+  align-items: center;
+}
+
+.link {
+  margin-right: 20px;
+}
+.name {
+  font-family: "Great Vibes", cursive;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #5e5f5f;
+  color: white;
+  text-align: center;
+}
+
+.snapmoji {
+  border-radius: 50%;
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+}
+.flex-container {
+  display: flex;
+  height: 350;
+  flex-flow: column wrap;
+  text-indent: auto;
+}
+/* .flex-container > div {
+  width: 100px;
+  margin: auto;
+  text-align: center;
+  line-height: auto;
+  font-size: auto;
+} */
