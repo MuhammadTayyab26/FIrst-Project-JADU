@@ -70,6 +70,13 @@
   height: 350;
   flex-flow: column wrap;
   text-indent: auto;
+  justify-content: space-around;
+}
+.text {
+  margin: 30;
+}
+.social_links {
+  align-content: center;
 }
 /* .flex-container > div {
   width: 100px;
